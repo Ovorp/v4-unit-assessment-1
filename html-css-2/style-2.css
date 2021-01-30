@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section {
+  margin: 20px;
+}
+/* header styling */
+
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+header {
+  height: 100px;
+  margin: 2px;
+  display: flex;
+  border-top: black 1px solid;
+  align-items: center;
+  background-color: #89fcd6;
+}
+
+header > h1 {
+  margin-left: 30px;
+}
+
+/* rectangle style  */
+
+.rectangles {
+  height: 500px;
+  width: 100%;
+  padding: 35px;
+  display: inline-block;
+  border: dashed black 2px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.purple {
+  height: 200px;
+  width: 300px;
+  background-color: #48187f;
+  border: red solid 5px;
+  margin-right: 35px;
+}
+
+.blue {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  border: black solid 1px;
+  box-shadow: 10px 10px 8px #000000;
+  margin-right: 35px;
+}
+
+.pink {
+  height: calc(500px - 70px);
+  width: 500px;
+  background-color: #d77493;
+  border: black 2px solid;
+}
+
+/* snowman style  */
+
+.circles {
+  height: auto;
+  width: 100%;
+  padding: 25px;
+  border: dashed black 2px;
+}
+
+#coal {
+  height: 20px;
+  width: 20px;
+  margin: 3px;
+}
+
+#carrot {
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+}
+
+.stacking-circles {
+  height: auto;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle1 {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: black solid 2px;
+  border-radius: 50%;
+}
+
+.circle1 > div {
+  display: block;
+}
+
+.eyes {
+  display: inline-block;
+}
+
+.circle2 {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: black solid 2px;
+  border-radius: 50%;
+}
+
+.circle3 {
+  height: 180px;
+  width: 180px;
+  display: flex;
+  border: black solid 2px;
+  border-radius: 50%;
+}
+
+/* everything style  */
+
+.everything {
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  border: dashed black 2px;
+  display: flex;
+}
+
+#goldfish {
+  height: 80px;
+  width: 80px;
+}
+
+.tan-box {
+  height: 400px;
+  width: 400px;
+  background-color: #f5f4de;
+  border: black solid 2px;
+}
+
+.green-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: #1c7d1a;
+  border: black solid 2px;
+}
+
+.brown-box {
+  display: block;
+  height: 200px;
+  width: 200px;
+  background-color: #a22f2e;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.blue-circle {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
