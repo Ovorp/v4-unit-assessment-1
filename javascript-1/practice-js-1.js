@@ -106,7 +106,7 @@ const me = {
   firstName: 'Nathaniel',
   state: 'Utah',
   age: 31,
-  greeter: () =>  `Hello! My name is ${firstName} and I live in ${state}`
+  greeter: () =>  `Hello! My name is ${me.firstName} and I live in ${me.state}`
   
 }
 //////////////////PROBLEM 12////////////////////
